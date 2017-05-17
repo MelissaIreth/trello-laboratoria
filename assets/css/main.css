@@ -1,0 +1,39 @@
+body {
+	background-color: #8a8a98;
+}
+
+h1 {	
+    color: #313131;
+    font-family: 'Imprima', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: snow;
+}
+
+.la-a:link, .la-a:visited {
+	font-family: 'Imprima', sans-serif;
+    color: #313131;
+    border: 1px solid snow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.la-a:hover, .la-a:active {
+    background-color: snow;
+}
+
+.el-texto{
+    width: 100%;
+    height: 100px;
+    color: #4E4D53;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
