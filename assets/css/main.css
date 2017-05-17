@@ -1,5 +1,5 @@
 body {
-	background-color: #8a8a98;
+	background-color: #afafbb;
 }
 
 h1 {	
@@ -10,21 +10,26 @@ h1 {
     background-color: snow;
 }
 
-.la-a:link, .la-a:visited {
+.la-a{
 	font-family: 'Imprima', sans-serif;
-    color: #313131;
     border: 1px solid snow;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 10px;
+    margin: 50px;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
 }
 .la-a:hover, .la-a:active {
+    color: #313131;
     background-color: snow;
+
 }
 
+.lista{
+	text-align: center;
+}
+/*
 .el-texto{
     width: 100%;
     height: 100px;
@@ -36,4 +41,4 @@ h1 {
     margin-bottom: 10px;
     overflow: scroll;
     overflow-x: hidden;
-}
+}*/
