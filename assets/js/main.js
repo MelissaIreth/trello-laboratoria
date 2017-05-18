@@ -1,3 +1,9 @@
+function constructor(lista,boton,texto) {
+	this.lista = lista
+	this.boton = boton
+	this.texto = texto
+}
+
 	var lista = document.getElementsByClassName("lista")[0];
 	var a = document.createElement("a");
 	a.setAttribute("class","la-a");
@@ -34,4 +40,21 @@ document.getElementById('inp').addEventListener('click', function () {
 		cont.appendChild(cuadroTexto);
 		cont.appendChild(boton);
 		boton.appendChild(addBoton);
+/*
+	boton.addEventListener("click", function(){
+		var imprimir = cuadroTexto.value;
+		var espan = document.createElement("span");
+		cont.appendChild(espan);
+		var fin = imprimir.innerHTML;
+		espan.appendChild(fin);
 });
+*/
+});
+/*
+function enableUpdateButton() {
+
+    document.getElementsByClassName("la-a").disabled = false;
+
+} 
+document.getElementsByClassName('el-texto').onkeypress=enableUpdateButton();
+*/

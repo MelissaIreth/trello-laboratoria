@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 50px;
+    margin: 30px;
     border-radius: 20px;
     padding: 10px;
 }
@@ -31,15 +31,15 @@ h1 {
 }
 
 .el-texto{
-    text-align: center;
     font-size: 15px;
     padding: 10px;
     border-radius: 10px;
     border: 0px;
-    margin: 10px 10px;
+    margin: 10px 570px;
     overflow: scroll;
     overflow-x: hidden;
 }
 .el-boton{
     font-family: 'Imprima', sans-serif;
+    margin: 5px 640px;
 }
